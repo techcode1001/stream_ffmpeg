@@ -8,7 +8,7 @@ YOUTUBE_URL="rtmp://a.rtmp.youtube.com/live2"
 KEY="urff-w6zh-amub-g08f-4cxj"
 
 VIDEO_SOURCE="video.mp4"
-AUDIO_SOURCE="http://stream.zeno.fm/kq34w27yss8uv"
+AUDIO_SOURCE="music.mp3"
 
 ffmpeg \
 -re -f lavfi -i "movie=filename=$VIDEO_SOURCE:loop=0, setpts=N/(FRAME_RATE*TB)" \
